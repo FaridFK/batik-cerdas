@@ -1,0 +1,115 @@
+/* CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style untuk header */
+header {
+    background-color: #333; /* Warna latar belakang header */
+    color: #fff; /* Warna teks */
+    padding: 20px 0; /* Padding atas dan bawah 20px, padding kiri dan kanan 0 */
+    text-align: center; /* Pusatkan teks */
+}
+
+.banner {
+    position: relative; /* Membuat posisi absolut bekerja relatif terhadap banner */
+}
+
+.banner img {
+    width: 100%; /* Agar gambar dapat melebar otomatis sesuai layar */
+    height: auto; /* Untuk menjaga aspek rasio gambar */
+}
+
+.banner-text {
+    position: absolute; /* Memposisikan teks secara absolut di dalam banner */
+    top: 50%; /* Posisi vertikal di tengah */
+    left: 50%; /* Posisi horizontal di tengah */
+    transform: translate(-50%, -50%); /* Untuk memindahkan teks ke tengah */
+    color: #fff; /* Warna teks */
+    text-align: center; /* Pusatkan teks */
+    font-size: 60px; /* Ukuran font teks */
+    font-weight: bold; /* Teks tebal */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Bayangan teks */
+}
+
+.slides {
+    display: flex; /* Menampilkan gambar dalam satu baris */
+    transition: transform 0.5s ease; /* Efek perubahan gambar */
+}
+
+.slides img {
+    width: 100%; /* Agar gambar dapat melebar otomatis */
+    height: auto; /* Untuk menjaga aspek rasio gambar */
+}
+
+/* Style untuk navigasi */
+nav ul {
+    list-style-type: none; /* Hilangkan bullet points pada daftar navigasi */
+}
+
+nav ul li {
+    display: inline; /* Tampilkan item navigasi secara horizontal */
+    margin: 0 10px; /* Ruang antara item navigasi */
+}
+
+nav ul li a {
+    color: #fff; /* Warna teks tautan */
+    text-decoration: none; /* Hilangkan garis bawah pada tautan */
+    font-weight: bold; /* Teks tebal */
+}
+
+.container {
+    font-size: 20px; /* Ganti dengan ukuran font yang diinginkan */
+}
+
+.container h2 {
+    font-size: 36px; /* Ukuran font untuk judul */
+}
+
+.container p {
+    font-size: 18px; /* Ukuran font untuk paragraf */
+}
+
+/* Style untuk bagian konten */
+.content-section {
+    padding: 50px 20px; /* Padding atas dan bawah 50px, padding kiri dan kanan 20px */
+}
+
+.content-section h2 {
+    margin-bottom: 20px; /* Ruang antara judul dan paragraf */
+}
+
+.content-section p {
+    font-size: 18px; /* Ukuran font paragraf */
+    line-height: 1.6; /* Jarak antarbaris */
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icons img {
+    width: 80px; /* Lebar logo */
+    height: auto; /* Ketinggian logo akan menyesuaikan proporsi aslinya */
+}
+
+.contact-icons a {
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.contact-icons a:hover {
+    transform: scale(1.1); /* Mengubah ukuran ikon saat dihover */
+}
+
+/* Style untuk footer */
+footer {
+    background-color: #333; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks */
+    padding: 20px 0; /* Padding atas dan bawah 20px, padding kiri dan kanan 0 */
+    text-align: center; /* Pusatkan teks */
+}
